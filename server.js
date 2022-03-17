@@ -13,7 +13,7 @@ app.route('/')
   });
 
 // Account Registration
-app.post('INSERT POST REGISTRATION LINK HERE', (req, res) => {
+app.post('/registration.html', (req, res) => {
   let newUser = {
     username: req.body.username,
     email: req.body.email,
